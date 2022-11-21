@@ -1,0 +1,133 @@
+.head {
+    padding: 20px 0;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.head-title {
+    font-size: 2rem;
+    margin: 0;
+    
+}
+
+.logo {
+    text-transform: uppercase;
+}
+
+.head .icon {
+    margin-left: 10px;
+    background-color: rgba(194, 189, 189, 0.295);
+}
+
+nav {
+    
+    background-color: rgba(177, 172, 172, 0.24);
+    margin: 0px 20px;
+    align-items: center;
+}
+
+nav.flexSB {
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 30px;
+}
+
+nav ul li {
+    margin: 0px 15px;
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    color: var(--subColor);
+    transition: all 0.4s;
+
+}
+
+.start {
+    text-transform: capitalize;
+    background-color: var(--subColor);
+    padding: 20px 70px;
+    color: white;
+    clip-path: polygon(10% 0,100% 0,100% 100%,0 100%);
+    cursor: pointer;
+}
+
+.start .button {
+
+  
+}
+
+.toggle {
+    display: none;
+}
+
+@media (max-width:768px) {
+
+
+    .start {
+        clip-path: none;
+       
+        
+        
+       
+    }
+        nav ul.flexSB{
+            display: none;
+            
+            
+        }
+        .mobile-nav {
+           position: absolute;
+           top: 4vh;
+           left: 0;
+           width: 100%;
+           background-color: var(--subColor);
+           flex-direction: column;
+           text-align: center;
+           padding: 0;
+           
+            
+        }
+                .mobile-nav li a:hover {
+                    color: black;
+                }
+
+                .mobile-nav li {
+                    margin: 10px 0px;
+                }
+
+        nav {
+            background: var(--subColor);
+            margin: 0;
+            padding: 0;
+            position: relative;
+            
+        }
+        .toggle {
+            display: block;
+            width: 40px;
+            height: 40px;
+            background: none;
+            color: white;
+            font-size: 30px;
+            border: 0;
+            position: absolute;
+           right: 10px;
+           top: 10px;
+           
+            
+        }
+}
+  
+
+

@@ -1,0 +1,184 @@
+.footer {
+    padding: 40px 0px;
+}
+.first {
+    background-color: var(--subColor);
+    color: white;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    
+
+}
+.first-left{
+    margin-left: 80px;
+}
+.first-left h2 {
+    font-size: 2rem;
+}
+
+.first-right {
+    margin: 0px 40px;
+    width: 50%;
+}
+
+.first-right button {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    background-color: white;
+    color: grey;
+}
+
+.first-right i {
+    color: var(--subColor);
+}
+
+@media screen and (max-width:768px) {
+
+    .first-left h2 {
+        font-size: 1.5rem;
+
+    }
+        .first-left p {
+            font-size: 14px;
+        }
+        .first-right button {
+            width: 100%;
+            font-size: 12px;
+        }
+    
+    
+}
+
+/* foooter */
+
+.about-us {
+
+   
+}
+
+.about-us-content {
+    display: grid;
+    grid-template-columns: 35% 20% 20% 35%;
+    gap: 40px;
+    color: var(--subColor);
+    padding: 120px 0px;
+}
+
+.about-us-1 img {
+    margin-bottom: 40px;
+
+}
+
+.about-us-1 p {
+    line-height: 1.7;
+    font-weight: normal;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.about-us-1 .play-app img {
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+.about-us-2 {
+    text-align: center;
+}
+
+.about-us-2 h2 {
+    margin-bottom: 40px;
+
+
+
+}
+
+.about-us-2 li {
+    line-height: 2.5;
+    color:grey;
+
+}
+
+.about-us-3 {
+    text-align: left;
+    position: relative;
+}
+
+.about-us-3 h2 {
+    margin-bottom: 60px;
+}
+
+.about-us-3 h3 {
+    width: 280px;
+    height: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    letter-spacing: 1.8px;
+    border-bottom: 2px solid;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.about-us-3 .icon0 {
+    position: absolute;
+    top: 33%;
+    left: 57%;
+}
+
+.about-us-3 .social-media {
+    
+    margin: 20px 10px;
+    list-style: none;
+    
+}
+
+.about-us-3 .social-media li {
+    display: inline-block;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.fa-sharp.fa-solid.fa-star {
+    color: var(--subColor);
+    margin: 3px 0px;
+}
+.about-us-1 h2 {
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin: 0;
+    
+}
+.about-us-1 h3 {
+    color: var(--subColor);
+    margin: 0;
+
+}
+
+#khodor {
+    text-align: center;
+    color: var(--subColor);
+    font-style: italic;
+}
+#khodor span {
+    color: grey;
+}
+
+@media screen and (max-width:768px) { 
+    .about-us-content {
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        padding-bottom: 0;
+    }
+        .about-us-3 .icon0 {
+            position: absolute;
+            top: 38%;
+            left: 87%;
+        }
+}
+
+

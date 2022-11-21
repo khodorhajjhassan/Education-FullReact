@@ -1,0 +1,209 @@
+.aboutHome {
+   
+}
+
+ .left {
+    width: 45%;
+    
+   
+}
+
+.aboutHome .left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+}
+.aboutHome .right {
+    width: 45%;
+    margin-right: 80px;
+    padding: 20px 0px;
+    
+}
+.aboutHome #heading h1{
+    color: black;
+    font-size: 2rem;
+    margin-top: 10px;
+
+}
+.aboutHome #heading h3 {
+    margin: 0;
+}
+
+.aboutHome .items {
+   
+    padding: 20px 5px;
+    
+    
+    
+}
+.items.flexSB {
+ 
+    margin-bottom: 15PX;
+    padding: 20px 20px;
+
+}
+
+.items-flex .img {
+    margin-right: 20px;
+}
+.aboutHome-items {
+    background-color: white;
+    margin: 30px 0px;
+}
+
+.aboutHome .items img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.items-flex .text h2 {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.items-flex .text p {
+    font-size: 20px;
+    word-spacing: 5px;
+    color: grey;
+    padding: 0;
+    line-height: 30px;
+}
+.aboutHome-items {
+    padding: 20px;
+}
+
+.aboutHome-items:hover {
+    background-color: var(--subColor);
+    color: white;
+    transition: all 0.4s;
+} 
+.items-flex {
+    display: flex;
+}
+
+/* awrapper */
+
+.awrapper {
+    
+    
+    position: relative;
+}
+
+.wrapper-img {
+    background-image: url(../../../public/images/awrapper.webp); 
+    background-position: center;
+    height: 300px;
+    background-attachment: fixed;
+     margin: 120px 0px;
+     
+}
+.items-2 {
+    padding: 50px 30px;
+    position: relative;
+}
+
+.items-2 .img {
+ 
+
+}
+
+.items-2 .img  img{
+    width: 80px;
+    height: 80px;
+    
+
+  
+}
+.items-2 .text {
+    position: absolute;
+    top: 30%;
+    left: 58%;
+    width:150px;
+    margin-left: 15px;
+ 
+}
+.items-2 .text h3 {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin: 0;
+    color: white;
+}
+.items-2 .text h2 {
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+
+
+@media screen and (max-width:768px) {
+
+   
+
+    .back {
+        background-position: 900px ;
+        padding-top: 40%;
+        padding-right: 5%;
+        height: 80vh;
+
+    }
+        .aboutHome {
+         
+           
+        }
+
+       .aboutHome .flexSB {
+           
+            display: block;
+        }
+
+    .aboutHome .left {
+       
+       width: 100%;
+        
+    }
+
+        .aboutHome .right {
+           
+            width: 100%;
+           
+            
+        }
+
+        .aboutHome #heading h3 {
+            color: var(--subColor);
+            text-align: center;
+            font-size: 25px;
+        }
+
+}
+
+@media screen and (max-width:768px) {
+
+.wrapper-img {
+    background-position: 900px -90px;
+        background-size: 900px 375px;
+        width: 100%;
+        height: 20vh;
+        margin: 0;
+
+}
+.items-2 {
+    padding: 40px 0px;
+    
+}
+.items-2 .img img {
+    width: 50px;
+    height: 50px;
+}
+.items-2 .text h3{
+    font-size: 30px;
+    
+}
+.items-2 .text h2 {
+    font-size: 10px;
+}
+
+}

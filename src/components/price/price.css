@@ -1,0 +1,120 @@
+.Pricee {
+    padding: 40px;
+}
+
+
+
+.price-content {
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 20px;
+    
+}
+.price-items {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.price-items h2 {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.price-items .left {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+.left h3 {
+    color: var(--subColor);
+    font-size: 4rem;
+    font-weight: bolder;
+    margin: 0;
+
+}
+
+.left span {
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0;
+    
+}
+
+.price-items p {
+    color: grey;
+    line-height: 25px;
+    padding: 30px;
+}
+
+@media screen and (max-width:768px){
+
+    .price-content {
+        grid-template-columns: repeat(2,auto);
+    }
+
+        .price-items {
+            padding: 5px;
+        }
+                .price-items p {
+                    margin-bottom: 0;
+                }
+}
+
+
+/*  question*/
+.question {
+    padding: 40px;
+}
+.t-s {
+    text-align: center;
+}
+
+.t-s h2 {
+    color: var(--subColor);
+    margin: 0;
+}
+.t-s h3  {
+
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+.question-content {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+.box {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.btn-hide {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    background-color: white;
+    color: var(--subColor);
+    font-weight: 600;
+    border-radius: 5px;
+}
+.btn-hide:hover {
+    background-color: var(--subColor);
+    color: white;
+    transition: all 0.4s;
+}
+
+.desc {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    word-spacing: 5px;
+}

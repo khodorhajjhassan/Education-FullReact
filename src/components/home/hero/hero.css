@@ -1,0 +1,90 @@
+.hero {
+    background-image: url(../../../../public/images/bg.webp);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+    position: absolute;
+    background-attachment: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 17%;
+    padding-right: 50%;
+    
+}
+
+.hero-desc {
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn-primary {
+    background-color: var(--subColor);
+    color: white;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
+.btn-primary i, .btn-secondary i {
+    margin-left: 15px;
+    
+}
+
+.btn-secondary {
+    color: var(--subColor);
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background-color: var(--subColor);
+    color: white;
+    transition: all 0.4s;
+}
+
+#heading {
+    color: white;
+    
+}
+#heading h1 {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#heading h3 {
+    color: var(--subColor);
+   
+}
+@media screen and (max-width:768px)  {
+
+    .margin {
+     height: 1vh;
+    }
+
+
+    .hero {
+        background-position:right ;
+        padding-top: 50%;
+        padding-right: 30%;
+        height: 80vh;
+        
+    } 
+
+      
+
+    .row {
+        width:100%;
+       
+
+        }
+  
+
+  #heading h3{
+    color: white;
+
+    }
+    
+}

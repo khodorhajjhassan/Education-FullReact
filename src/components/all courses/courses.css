@@ -1,0 +1,283 @@
+.course-card {
+  
+    padding: 20px 0px;
+   
+}
+
+.course-items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+.course-item {
+    padding: 30px;
+    background-color: white;
+
+    position: relative;
+    height: 400px;
+    text-align: center;
+   
+}
+
+
+.course-item .items {
+    
+   display: flex;
+   height: 70px;
+  
+   
+   
+}
+
+.course-item .left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 3px;
+    background-color:var(--subColor);
+    margin-right: 10px;
+}
+ .course-Name h2 {
+    margin: 0;
+    margin-bottom: 15px;
+    text-align: left;
+}
+.stars {
+    margin-right: 30px;
+    margin: 10px;
+}
+.stars i {
+   color: var(--subColor);
+   font-size: 14px;
+   margin-right:2px ;
+}
+
+.stars label {
+    font-size: 14px;
+    margin-left: 5px;
+    color: grey;
+    letter-spacing: 0.7px;
+}
+.items {
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.course-item .detail img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.course-item .detail p {
+    color: grey;
+    font-weight: bold;
+}
+
+.course-item .detail span {
+    
+    color: var(--subColor);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.price {
+   
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    
+}
+.price p {
+    color: var(--subColor);
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .course-items {
+      grid-template-columns: repeat(1,auto);
+        
+    }
+      
+}
+
+.online-courses {
+    background-color: rgba(221, 221, 221, 0.363);
+    padding: 20px 0px;
+}
+
+.online-title {
+    text-align: center;
+    margin: 60px 0px;
+
+}
+
+.online-title h2 {
+font-size: 1rem;
+color: var(--subColor);
+margin:0;
+}
+
+.online-title h3 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: black;
+}
+
+
+
+.online-items {
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+    
+}
+.content {
+    text-align: center;
+    padding: 35px;
+    background-color: white;
+    
+
+}
+.content .online-img {
+    position: relative;
+}
+
+.content .online-img img {
+    width: 60px;
+    height: 60px;
+    
+}
+
+.content .online-img .img1 {
+    position: absolute;
+}
+.content .online-img .img2 {
+    position: relative;
+    opacity: 0;
+}
+
+.content span {
+    color: var(--subColor);
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 7px 20px;
+    transition: all 0.4s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.content:hover {
+    background-color: var(--subColor);
+    color: white;
+    transition: all 0.4s;
+}
+.content:hover .img1 {
+    opacity: 0;
+}
+.content:hover .img2 {
+    opacity: 1;
+}
+
+.content:hover span{
+    
+    line-height: 20px;
+    color: var(--subColor);
+    background-color: white;
+}
+
+@media screen and (max-width:768px) { 
+    .online-items {
+        grid-template-columns: repeat(2,auto);
+    }
+}
+
+/* testimonal */
+.testimonal {
+    padding: 40px;
+}
+.testimonal-content {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 30px;
+}
+
+.test-items {
+    background-color: white;
+    padding: 30px;
+}
+.test-left {
+    display: flex;
+    
+}
+.test1 {
+    position: relative;
+    margin-right: 20px;
+}
+.test1 img {
+    width: 120px;
+    height:120px;
+    border-radius: 120px;
+}
+
+.test1 i {
+    color: white;
+    background-color: var(--subColor);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+
+
+}
+
+.test2 h2 {
+    margin-bottom: 0;
+}
+
+.test2 h3 {
+    margin-top: 5px;
+    font-weight: 300;
+    color: var(--subColor);
+}
+
+.test-items p {
+    color: grey;
+    line-height: 25px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+.test-items:hover {
+    cursor: pointer;
+    background-color: var(--subColor);
+    color: white;
+    transition: all 0.4s;
+
+}
+.test-items:hover p,h3 {
+    color: white;
+}
+.test-items:hover 
+h3 {
+    color: white;
+}
+.test-items:hover i {
+    color: var(--subColor);
+    background-color: white;
+    transition: all 0.4s;
+}
+
+@media screen and (max-width:768px) {
+    .testimonal-content {
+        grid-template-columns: repeat(1, auto);
+    }
+}
