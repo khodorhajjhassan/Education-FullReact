@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/education-React/static/css/main.f614794a.css",
+    "main.js": "/education-React/static/js/main.845afe81.js",
+    "static/media/back.webp": "/education-React/static/media/back.93d3f802b480eeabae07.webp",
+    "static/media/awrapper.webp": "/education-React/static/media/awrapper.031ce77a398171427673.webp",
+    "static/media/bg.webp": "/education-React/static/media/bg.baa1024a4ae092566a75.webp",
+    "static/media/end.webp": "/education-React/static/media/end.8788863d9a2d433f444b.webp",
+    "index.html": "/education-React/index.html",
+    "main.f614794a.css.map": "/education-React/static/css/main.f614794a.css.map",
+    "main.845afe81.js.map": "/education-React/static/js/main.845afe81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f614794a.css",
+    "static/js/main.845afe81.js"
+  ]
+}
